@@ -1,4 +1,4 @@
-﻿# Discord Voice Bot (Safe)
+﻿# Discord Voice Bot 
 
 This bot uses the official Discord Bot API (no user tokens).
 
@@ -51,3 +51,4 @@ bash deploy/update-and-restart.sh
 ## Notes
 - Slash commands are registered for one guild (`DISCORD_GUILD_ID`) on startup.
 - Use this only where you have admin permission.
+
