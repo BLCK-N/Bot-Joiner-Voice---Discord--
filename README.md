@@ -1,5 +1,5 @@
 ﻿# Discord Voice Bot 
-
+CLICK HER FOR USE MY BOT : https://discordapp.com/oauth2/authorize?client_id=1426322525356429525
 This bot uses the official Discord Bot API (no user tokens).
 
 ## Features
@@ -51,4 +51,5 @@ bash deploy/update-and-restart.sh
 ## Notes
 - Slash commands are registered for one guild (`DISCORD_GUILD_ID`) on startup.
 - Use this only where you have admin permission.
+
 
