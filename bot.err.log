@@ -1,2 +1,0 @@
-(node:19552) DeprecationWarning: The ready event has been renamed to clientReady to distinguish it from the gateway READY event and will only emit under that name in v15. Please use clientReady instead.
-(Use `node --trace-deprecation ...` to show where the warning was created)
