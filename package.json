@@ -1,0 +1,22 @@
+﻿{
+  "name": "discord-voice-bot-safe",
+  "version": "1.0.0",
+  "description": "Safe Discord bot to join voice channels and move all members between channels",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "pm2:start": "pm2 start ecosystem.config.cjs --only discord-voice-bot",
+    "pm2:restart": "pm2 restart discord-voice-bot",
+    "pm2:logs": "pm2 logs discord-voice-bot",
+    "pm2:status": "pm2 status"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.17.0",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.5"
+  }
+}
